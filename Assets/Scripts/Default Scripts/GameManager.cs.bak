@@ -1,0 +1,208 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class GameManager : MonoBehaviour 
+{
+    
+	public GameObject pnLevelComplete,pnGamePlay,pnGameOver,pnPause,nextButton;
+	public LevelManager levelManager;
+    
+	bool isCompleted=false;
+	bool isOver=false;
+
+	public static GameManager instance;
+	public GameObject gamecomplete;
+	public GameObject levelComplete;
+
+	public GameObject getcoinpanel;
+	public GameObject intererrorPanel;
+	public bool coinpanelon;
+	public int valueawy=0;
+	public bool hitspoint = false;
+    
+	// Use this for initialization
+	void Start () 
+	{
+	
+		Time.timeScale = 1;
+		AudioListener.pause = false;
+		if (!levelManager)
+			levelManager = GameObject.FindObjectOfType<LevelManager> ();
+    }
+
+	void Update()
+	{
+		if (valueawy == 1)
+        {
+			if (coinpanelon)
+            {
+				Time.timeScale = 0;
+			} else
+            {
+				Time.timeScale = 1;
+			}
+		}
+		if (hitspoint)
+        {
+			Debug.Log ("aa");
+			FPSPlayer.instance.hitPoints = 200.0f;
+			hitspoint = false;
+		}
+	}
+
+	void Awake()
+    {
+		instance = this;
+	}
+
+
+	public void btn_Next()
+	{
+        if(Preferences.Instance.Level<levelManager.Levels.Length)
+    		Preferences.Instance.Level++;
+		LevelSelection.startDialog ();
+		StartCoroutine(LoadLoading());
+	}
+
+	public void btn_MainMenu()
+	{
+        Time.timeScale = 1;
+		LevelSelection.startDialog ();
+        StartCoroutine(lateMenuGo());
+    }
+    IEnumerator lateMenuGo()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Application.LoadLevel("LevelSelection");
+    }
+	public void btn_Replay()
+	{
+        Application.LoadLevel("LoadingScene");
+	}
+	public void btn_pause()
+	{
+		Time.timeScale = 0;
+		pnGamePlay.SetActive (false);
+		pnPause.SetActive (true);
+        AdsManager.instance.ShowRewardedVideo();
+	}
+
+	public void btn_resume()
+	{
+		Time.timeScale = 1;
+		pnGamePlay.SetActive (true);
+		pnPause.SetActive (false);
+	}
+			
+	public void GameOver()
+	{
+		if (!isOver)
+			isOver = true;
+		else
+			return;
+		Debug.Log ("Game Over Fun");
+		if (isCompleted)
+			return;
+		Time.timeScale = 0;
+		StartCoroutine (waitGameOver());
+	}
+
+	public void LevelComplete()
+	{
+		if (!isCompleted)
+			isCompleted = true;
+		else
+			return;
+		Debug.Log ("Level Complete Fun");
+		if (isOver)
+			return;
+		StartCoroutine (waitlevelComplete());
+	}
+
+	IEnumerator waitlevelComplete()
+	{
+        Debug.Log("Level Complete");
+		if (Preferences.Instance.Level == Preferences.Instance.LevelUnlock && Preferences.Instance.LevelUnlock < levelManager.Levels.Length)
+        {
+            Preferences.Instance.LevelUnlock++;
+        }
+ //      Time.timeScale = 0;
+		pnGamePlay.SetActive(false);
+        pnLevelComplete.SetActive(true);
+		if (Preferences.Instance.Level >= levelManager.Levels.Length)
+        {
+			levelComplete.SetActive (false);
+			gamecomplete.SetActive(true);
+        }
+        AdsManager.instance.ShowRewardedVideo();
+        yield return new WaitForSeconds (2f);
+        AudioListener.pause = true;
+	}
+
+    IEnumerator waitGameOver()
+    {
+        pnGameOver.SetActive(true);
+		pnGamePlay.SetActive(false);
+		Time.timeScale = 0;
+        AdsManager.instance.ShowRewardedVideo();
+        yield return new WaitForSeconds(2f);
+    }
+
+	IEnumerator LoadLoading()
+	{
+		yield return new WaitForSeconds(2);
+		Application.LoadLevel("LevelSelection");
+	}
+
+
+	public void healthbtn()
+	{
+		valueawy = 1;
+		coinpanelon = true;
+		getcoinpanel.SetActive (true);
+
+	}
+
+
+	public void watchVideobtn()
+	{
+		if (Application.internetReachability != NetworkReachability.NotReachable)
+        {
+			intererrorPanel.SetActive (false);
+			hitspoint = true;
+
+			valueawy = 20;
+			getcoinpanel.SetActive (false);
+			Debug.Log ("Network available");
+			AdsManager.instance.ShowRewardedVideo();
+		}
+        else
+        {
+			getcoinpanel.SetActive (false);
+			intererrorPanel.SetActive (true);
+			valueawy = 0;
+			Debug.Log ("Network not available");
+		}
+	}
+
+	public void healthResumebtn()
+	{
+		coinpanelon = false;
+		valueawy = 0;
+		intererrorPanel.SetActive (false);
+		getcoinpanel.SetActive (false);
+	}
+
+	IEnumerator LoadLoadingadd()
+	{
+		Debug.Log ("1");
+		yield return new WaitForSeconds(0.3f);
+		valueawy = 0;
+		hitspoint = false;
+		getcoinpanel.SetActive (false);
+		Debug.Log ("2");
+	}
+
+
+}

@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: e6268055f32a2d84d99477113c56e9cf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: autopsy_room
+    100004: autopsy_room_collision
+    100006: DOOR_DUMMY_35
+    100008: DOOR_DUMMY_36
+    100010: safe_glass_outside
+    100012: safe_glass_wire
+    100014: Morgue_3x3
+    100016: Morgue_3x3_Collision
+    100018: Morgue_doors_closed
+    100020: Morgue_doors_page
+    400000: //RootNode
+    400002: autopsy_room
+    400004: autopsy_room_collision
+    400006: DOOR_DUMMY_35
+    400008: DOOR_DUMMY_36
+    400010: safe_glass_outside
+    400012: safe_glass_wire
+    400014: Morgue_3x3
+    400016: Morgue_3x3_Collision
+    400018: Morgue_doors_closed
+    400020: Morgue_doors_page
+    2300000: autopsy_room
+    2300002: autopsy_room_collision
+    2300004: safe_glass_outside
+    2300006: safe_glass_wire
+    2300008: //RootNode
+    2300010: Morgue_3x3
+    2300012: Morgue_3x3_Collision
+    2300014: Morgue_doors_closed
+    2300016: Morgue_doors_page
+    3300000: autopsy_room
+    3300002: autopsy_room_collision
+    3300004: safe_glass_outside
+    3300006: safe_glass_wire
+    3300008: //RootNode
+    3300010: Morgue_3x3
+    3300012: Morgue_3x3_Collision
+    3300014: Morgue_doors_closed
+    3300016: Morgue_doors_page
+    4300000: autopsy_room_collision
+    4300002: autopsy_room
+    4300004: safe_glass_outside
+    4300006: safe_glass_wire
+    4300008: Morgue_3x3_Collision
+    4300010: Morgue_3x3
+    4300012: Morgue_doors_page
+    4300014: Morgue_doors_closed
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COLLISION
+    second: {fileID: 2100000, guid: 7eca8b523e7ae2c4f89aea444632fd44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalBare_A
+    second: {fileID: 2100000, guid: ddd0aa96e708c5b479214b43b72fe71f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: autopsy_machine
+    second: {fileID: 2100000, guid: 31514ce96676f304298cb7bbddeaf420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: autopsy_tile
+    second: {fileID: 2100000, guid: 9dad267acfd77e14fb215883a783d5b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: e1e85606794fb044d8e39cbc6d51122c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_plastics
+    second: {fileID: 2100000, guid: c4dc9a483aafcd349abec0f345a11a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_B
+    second: {fileID: 2100000, guid: 8efe1c80d858cb249bc147453ff9d35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door_Exit
+    second: {fileID: 2100000, guid: 99e37bec3774be84e9f332778f8b5335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electrical_details_DM
+    second: {fileID: 2100000, guid: 166ce0a47b2dd4b4e93732dd1dada6e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor_A
+    second: {fileID: 2100000, guid: 32a1dff0d4088694393c11192255618c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green_metal
+    second: {fileID: 2100000, guid: 2dc0aa75e9000a149afe15bd6da81cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hallway_A
+    second: {fileID: 2100000, guid: d1a84f996efb4f9449317086a860ead1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: machine_metal
+    second: {fileID: 2100000, guid: 4419ab2d935e6fa41a6464d62aa8bf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_A
+    second: {fileID: 2100000, guid: d34d8f4e6b0ef1e4c93aeb280358ad93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_B
+    second: {fileID: 2100000, guid: e3a1818f88428f645933ac8d34120083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: safe_glass_wire
+    second: {fileID: 2100000, guid: f0be8593f10f5004582d58b132887ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scale_dial
+    second: {fileID: 2100000, guid: 0ccb9ef2723132240b4b13a46990dc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tile_floor
+    second: {fileID: 2100000, guid: 15d82805cc89607489d07bf920ceb6c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: voltage_dial
+    second: {fileID: 2100000, guid: 8d020128216c3504ebaa343804d9a757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_A_green_treated
+    second: {fileID: 2100000, guid: 1ac771e4bd641dd479ebbb5bd8b15dee, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

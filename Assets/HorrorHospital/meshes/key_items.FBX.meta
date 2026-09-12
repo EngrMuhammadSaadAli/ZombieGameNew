@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 186301fc1faf97944960ce0190e4e327
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: FlatBar_Key
+    100002: Hammer_key
+    100004: //RootNode
+    100006: FPV_AutopsySwitch
+    100008: FPV_FlashLight
+    100010: FPV_FlatBar
+    100012: FPV_Hammer
+    100014: FPV_TorchStab
+    100016: FPV_FuseGreen
+    100018: PUI_AutopsySwitch
+    100020: PUI_FlashLight
+    100022: PUI_FlatBar
+    100024: PUI_FuseGreen
+    100026: PUI_Hammer
+    100028: PUI_TorchStab
+    100030: PUI_Cross
+    100032: FPV_Cross
+    100034: FPV_BoxOfMatches
+    100036: PUI_BoxOfMatches
+    100038: FPV_Ax
+    100040: PUI_Ax
+    400000: FlatBar_Key
+    400002: Hammer_key
+    400004: //RootNode
+    400006: FPV_AutopsySwitch
+    400008: FPV_FlashLight
+    400010: FPV_FlatBar
+    400012: FPV_Hammer
+    400014: FPV_TorchStab
+    400016: FPV_FuseGreen
+    400018: PUI_AutopsySwitch
+    400020: PUI_FlashLight
+    400022: PUI_FlatBar
+    400024: PUI_FuseGreen
+    400026: PUI_Hammer
+    400028: PUI_TorchStab
+    400030: PUI_Cross
+    400032: FPV_Cross
+    400034: FPV_BoxOfMatches
+    400036: PUI_BoxOfMatches
+    400038: FPV_Ax
+    400040: PUI_Ax
+    2300000: FlatBar_Key
+    2300002: Hammer_key
+    2300004: FPV_AutopsySwitch
+    2300006: FPV_FlashLight
+    2300008: FPV_FlatBar
+    2300010: FPV_Hammer
+    2300012: FPV_TorchStab
+    2300014: FPV_FuseGreen
+    2300016: PUI_AutopsySwitch
+    2300018: PUI_FlashLight
+    2300020: PUI_FlatBar
+    2300022: PUI_FuseGreen
+    2300024: PUI_Hammer
+    2300026: PUI_TorchStab
+    2300028: PUI_Cross
+    2300030: FPV_Cross
+    2300032: FPV_BoxOfMatches
+    2300034: PUI_BoxOfMatches
+    2300036: FPV_Ax
+    2300038: PUI_Ax
+    3300000: FlatBar_Key
+    3300002: Hammer_key
+    3300004: FPV_AutopsySwitch
+    3300006: FPV_FlashLight
+    3300008: FPV_FlatBar
+    3300010: FPV_Hammer
+    3300012: FPV_TorchStab
+    3300014: FPV_FuseGreen
+    3300016: PUI_AutopsySwitch
+    3300018: PUI_FlashLight
+    3300020: PUI_FlatBar
+    3300022: PUI_FuseGreen
+    3300024: PUI_Hammer
+    3300026: PUI_TorchStab
+    3300028: PUI_Cross
+    3300030: FPV_Cross
+    3300032: FPV_BoxOfMatches
+    3300034: PUI_BoxOfMatches
+    3300036: FPV_Ax
+    3300038: PUI_Ax
+    4300000: FlatBar_Key
+    4300002: Hammer_key
+    4300004: FPV_FlashLight
+    4300006: FPV_AutopsySwitch
+    4300008: FPV_TorchStab
+    4300010: FPV_Hammer
+    4300012: FPV_FlatBar
+    4300014: FPV_FuseGreen
+    4300016: PUI_FlatBar
+    4300018: PUI_Hammer
+    4300020: PUI_FuseGreen
+    4300022: PUI_FlashLight
+    4300024: PUI_AutopsySwitch
+    4300026: PUI_TorchStab
+    4300028: PUI_Cross
+    4300030: FPV_Cross
+    4300032: FPV_BoxOfMatches
+    4300034: PUI_BoxOfMatches
+    4300036: FPV_Ax
+    4300038: PUI_Ax
+    7400000: Use_Key_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #5'
+    second: {fileID: 2100000, guid: 78d64f49b6343774e8d365e74e9864ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #6'
+    second: {fileID: 2100000, guid: 4419ab2d935e6fa41a6464d62aa8bf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nice-machine_metal
+    second: {fileID: 2100000, guid: 20bacdcbc12c3fc4693b3ab4313da4ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OldFlashlight
+    second: {fileID: 2100000, guid: 1c813f329468fcc4db863c00748adb66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: anisotropic1SG
+    second: {fileID: 2100000, guid: 37f64ddd38a202d40a5d30424bb906e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black-alpha
+    second: {fileID: 2100000, guid: cef5d5da294dc6b4980a94ead7157680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box_of_matches
+    second: {fileID: 2100000, guid: e47c5de77d95cc2419c2edf584350246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: electrical_details_DM
+    second: {fileID: 2100000, guid: 166ce0a47b2dd4b4e93732dd1dada6e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: flashlight_glow
+    second: {fileID: 2100000, guid: f90625f9ab7f1e34aa74705feae4b165, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fuse_old
+    second: {fileID: 2100000, guid: 60decabe7cf9dda4091cb614a5077148, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: machine_metal
+    second: {fileID: 2100000, guid: 4419ab2d935e6fa41a6464d62aa8bf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_cross
+    second: {fileID: 2100000, guid: c2980e8ce339b28468c050f3cc296d67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: torch_stake
+    second: {fileID: 2100000, guid: 8d4c284c2c4d8554982dd1ef27cb2225, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Use_Key_Anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 240
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
